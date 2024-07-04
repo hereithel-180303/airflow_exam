@@ -18,7 +18,7 @@ __pycache__/
 /.venv
 /.idea
 /.vscode
-*.env
+#*.env
 *.env.*
 
 # Ignore Airflow specific directories and files

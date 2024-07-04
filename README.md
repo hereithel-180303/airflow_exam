@@ -25,6 +25,9 @@ This exam demonstrates the use of Apache Airflow with PostgreSQL and Python for 
    git clone https://github.com/hereithel-180303/airflow_exam.git
    cd your_repository/airflow_exam
 
+   this is the Docker image 
+   docker pull hereithel/airflow_exam:latest
+
 2. Go to your terminal:
 3. cd your_repository/airflow_exam
 4. type in your terminal:
