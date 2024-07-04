@@ -1,0 +1,49 @@
+# Airflow
+*.log
+*.err
+*.out
+*.pid
+*.rej
+*.log.*
+*.log-*  # Exclude Airflow log files
+
+
+# Ignore system and Python artifacts
+__pycache__/
+.env
+.env.*
+*.pyc
+
+# Ignore local settings and secrets
+/.venv
+/.idea
+/.vscode
+*.env
+*.env.*
+
+# Ignore Airflow specific directories and files
+airflow.db
+airflow-webserver.pid
+airflow.cfg
+logs/
+dags/__pycache__/
+plugins/__pycache__/
+logs/
+data/csse_covid_19_daily_reports/
+unittests.cfg
+*.sqlite
+
+# Ignore Docker related files if using Docker
+docker-compose.yml
+Dockerfile
+*.dockerignore
+
+# Ignore editor specific files
+*.swp
+*~
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
